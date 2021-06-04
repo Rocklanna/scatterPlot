@@ -1,0 +1,35 @@
+:root{
+  --main-color:#ffffff;
+}
+
+body{
+  background-color:var(--main-color);
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+#main{
+  background-color:var(--main-color);
+}
+#title{
+  background-color:var(--main-color);
+  height:100px;
+  font-size:30px;
+  font-weight:bold;
+  text-align:center;
+  display:flex;
+ justify-content:center;
+}
+#plot{
+  background-color:var(--main-color);
+}
+#tooltip{
+  /*visibility:hidden;*/
+  background-color:#B0C4DE;
+  width:150px;
+  color:black;
+  position:absolute;
+  font-size:12px;
+  opacity:0;
+}
